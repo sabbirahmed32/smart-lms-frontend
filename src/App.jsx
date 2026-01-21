@@ -7,6 +7,7 @@ import Login from './assets/componats/pages/Login'
 import Register from './assets/componats/pages/Register'
 import MyCoures from './assets/componats/account/MyCoures'
 import MyLerning from './assets/componats/account/MyLerning'
+import WatchCures from './assets/componats/account/WatchCures'
 function App() {
  
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/account/register' element={<Register></Register>}></Route>
             <Route path='/account/my-courses' element={<MyCoures></MyCoures>}></Route>
             <Route path='/account/my-learning' element={<MyLerning></MyLerning>}/>
+            <Route path='/account/watch-course' element={<WatchCures></WatchCures>}></Route>
             {/* <Route path='/account/my-courses/view' element={<View/>}/>
             <Route path='/account/my-courses/create' element={<CreateCourse/>}/>
             <Route path='/account/watch-course' element={<WatchCourse/>}/> */}
